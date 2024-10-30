@@ -2,6 +2,7 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { UserContext } from './UserContext'
+import IndexPage from './IndexPage'
 
 
 
@@ -44,6 +45,7 @@ function Header() {
                 )}
             </Link>
         </header>
+        <IndexPage/>
         <hr/>
     </>
     )
