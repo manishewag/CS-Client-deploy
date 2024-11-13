@@ -45,7 +45,7 @@ function Header() {
                 )}
             </Link>
         </header>
-        <IndexPage/>
+        {/* <IndexPage/> */}
         <hr/>
     </>
     )
